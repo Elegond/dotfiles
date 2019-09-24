@@ -1,10 +1,9 @@
-alias gti='git'
 #alias tmux='tmux -2'
 alias less='less -R'
 alias diff='colordiff'
-alias dc='cd'
-alias nethack-online='ssh nethack@nethack.alt.org ; clear'
-alias tron-online='ssh sshtron.zachlatta.com ; clear'
 alias glog='git log --oneline --graph --color --all --decorate'
 alias ping='ping -O'
+alias update='apt update && apt upgrade'
+alias supdate='sudo apt update && sudo apt upgrade'
+alias ls='ls -la'
 
