@@ -10,7 +10,7 @@ for file in $(find . -maxdepth 1 -name ".*" -type f  -printf "%f\n" ); do
 done
 
 # Check if vim-addon installed, if not, install it automatically
-if hash vim-addon  2>/dev/null; then
+if hash vim-addons  2>/dev/null; then
     echo "vim-addon (vim-scripts)  installed"
 else
     echo "vim-addon (vim-scripts) not installed, installing"
