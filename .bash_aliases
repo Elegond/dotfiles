@@ -6,4 +6,5 @@ alias ping='ping -O'
 alias update='apt update && apt upgrade'
 alias supdate='sudo apt update && sudo apt upgrade'
 alias ls='ls -lah --color=auto'
-alias kgnome=’killall -3 gnome-shell’
+alias kgnome='killall -3 gnome-shell'
+alias mvallsub='mv */* . ; mv */* . ; mv */* . ; mv */* . ; mv */* . ; mv */* . ; mv */* . ; mv */* . ; cd ..'
