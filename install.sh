@@ -13,8 +13,12 @@ done
 if hash vim-addons  2>/dev/null; then
     echo "vim-addon (vim-scripts)  installed"
 else
-    echo "vim-addon (vim-scripts) not installed, installing"
-    sudo apt update && sudo apt -y install vim-scripts
+    echo "vim-addon (vim-scripts) not installed"
+    if hash sudo  2>/dev/null; then
+        echo "installing"
+        sudo apt update && sudo apt -y install vim-scripts
+    else
+        echo "NO sudo... (not installing)"
 fi
 
 echo "Installed"
