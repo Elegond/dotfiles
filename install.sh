@@ -19,6 +19,7 @@ else
         sudo apt update && sudo apt -y install vim-scripts
     else
         echo "NO sudo... (not installing)"
+    fi
 fi
 
 echo "Installed"
